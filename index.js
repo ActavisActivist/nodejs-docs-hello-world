@@ -3,7 +3,6 @@
 // https://github.com/microsoft/Web-Dev-For-Beginners/tree/main/7-bank-project/api
 // ***************************************************************************
 
-res.end("Hello World!");
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors')
@@ -56,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World!");
+    return res.send("Response.end these nuts Microsoft");
 })
 
 app.get('/api', function (req, res) {
